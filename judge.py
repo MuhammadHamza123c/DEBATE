@@ -1,6 +1,6 @@
 import requests
 
-api_key = "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"
+api_key = ""
 url = "https://api.groq.com/openai/v1/chat/completions"
 headers = {
     "Authorization": f"Bearer {api_key}",
