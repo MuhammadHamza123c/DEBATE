@@ -1,7 +1,7 @@
 import requests
 import streamlit as st
 api_key = st.secrets["api_key"]
-url = "https://api.groq.com/openai/v1/chat/completions"
+url = ""
 headers = {
     "Authorization": f"Bearer {api_key}",
     "Content-Type": "application/json"
